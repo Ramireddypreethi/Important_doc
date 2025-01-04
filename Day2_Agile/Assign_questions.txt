@@ -1,0 +1,37 @@
+Agile - Use Case: Online Food Delivery Service kummarabheema@gmail.com
+Context: A food delivery app allows users to order food from local restaurants and have it delivered to their location. 
+
+Actors: 
+
+Customer: A person who orders food through the app. 
+Restaurant: A partner providing food to be delivered. 
+Delivery Driver: A person who picks up the food from the restaurant and delivers it to the customer. 
+
+Preconditions: 
+The customer has access to the app and an account. 
+The restaurant is operational and partnered with the service. 
+
+Basic Flow: 
+
+Browse Restaurants: 
+The customer opens the app and views a list of available restaurants. 
+Select Food Items: 
+The customer selects a restaurant and browses the menu to choose food items. 
+Add Items to Cart: 
+The customer adds selected food items to their cart. 
+Place Order: 
+The customer reviews the cart and places the order, providing delivery information. 
+Receive Confirmation: 
+The customer receives an order confirmation with an estimated delivery time. 
+Track Order: 
+The customer can track the status of their order in real-time. 
+Delivery: 
+The delivery driver picks up the food and delivers it to the customer’s location. 
+Rate Experience: 
+After receiving the order, the customer can rate their experience. 
+
+Postconditions: 
+
+The customer has received their food and can provide feedback on the service. 
+
+ 

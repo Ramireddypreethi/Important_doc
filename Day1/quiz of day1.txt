@@ -1,0 +1,98 @@
+Problem solving techniques and data structures
+Quiz 1
+Question: Which of the following is a linear data structure?
+A) Binary Tree
+B) Graph
+C) Stack
+D) AVL Tree
+ 
+A stack is a linear data structure because elements are accessed in a sequential manner using LIFO
+ 
+ 
+Quiz 2
+Question: Which sorting algorithm is not stable?
+A) Bubble Sort
+B) Quick Sort
+C) Merge Sort
+D) Insertion Sort
+Quick Sort is not stable because it does not preserve the relative order of equal elements.
+ 
+ 
+Quiz 3
+Question: Which of the following describes the 'Divide and Conquer' technique?
+A) Dividing a problem into overlapping subproblems.
+B) Dividing a problem into disjoint subproblems.
+C) Using trial and error to find a solution.
+D) Building a solution step-by-step and selecting the best choice at each step.
+ 
+The “Divide and Conquer” technique breaks down a problem into smaller, non-overlapping subproblems. Solves each independently , and combines their solutions.
+ 
+ 
+Quiz 4
+Question: What is the main advantage of Dynamic Programming over Divide and Conquer?
+A) It uses a heuristic approach to find the solution.
+B) It handles overlapping subproblems efficiently.
+C) It always finds the optimal solution.
+D) It does not require recursion.
+ 
+Dynamic programming stores results o overlapping subproblems to avoid redundant comptations.
+ 
+ 
+Quiz 5
+Question: Which of the following data structures works on the principle of FIFO (First In, First Out)?
+A) Stack
+B) Tree
+C) Queue
+D) Graph
+ 
+Queue follows FIFO where the first element added is the first element to be removed.
+ 
+ 
+Quiz 6
+Question: In which traversal of a Binary Tree do we visit the root node first, then the left subtree, and finally the right subtree?
+A) Inorder
+B) Preorder
+C) Postorder
+D) Level order
+ 
+Preorder traversal visits in the sequence : Root, Left , Right
+ 
+Quiz 7
+Question: Which data structure is used to check if a string has balanced parentheses?
+A) Queue
+B) Stack
+C) Tree
+D) Graph
+ 
+Stack efficiently tracks the opening and closing of parentheses using LIFO
+ 
+ 
+Quiz 8
+Question: Which sorting algorithm uses the "bubble up" technique to sort elements?
+A) Selection Sort
+B) Merge Sort
+C) Quick Sort
+D) Bubble Sort
+ 
+Bubble Sort repeatedly swaps adjacent elements to “bubble” the largest element to its correct position.
+ 
+ 
+Quiz 9
+Question: What is the main characteristic of a binary search tree?
+A) It has at most two children.
+B) All nodes have the same value.
+C) The left child is greater than the parent node.
+D) The right child is always a leaf.
+ 
+Each node in a binary search tree has up to two children
+ 
+Quiz 10
+Question: What does the 'Greedy Approach' ensure in problem-solving?
+A) It guarantees the global optimal solution.
+B) It guarantees a feasible but not necessarily optimal solution.
+C) It divides the problem into smaller independent subproblems.
+D) It always finds a solution using dynamic programming.
+ 
+The greedy approach selects the locally optimal choice at each step, which may not lead to the global optimum.
+ 
+has context menu

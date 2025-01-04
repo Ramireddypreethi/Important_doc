@@ -1,0 +1,62 @@
+Hexaware - Table Creation and Constraints Exercises
+Exercise 1: Create a table with a Primary Key
+Create a table named `students` with the following columns:
+- `student_id` (INT) as the Primary Key
+- `first_name` (VARCHAR(50))
+- `last_name` (VARCHAR(50))
+- `birth_date` (DATE)
+
+
+Exercise 2: Create a table with a Foreign Key
+Create a table named `enrollments` with the following columns:
+- `enrollment_id` (INT) as the Primary Key
+- `student_id` (INT) as a Foreign Key referencing `students(student_id)`
+- `course_id` (INT)
+- `enrollment_date` (DATE)
+
+
+Exercise 3: Create a table with a CHECK constraint
+Create a table named `courses` with the following columns:
+- `course_id` (INT) as the Primary Key
+- `course_name` (VARCHAR(100))
+- `credits` (INT) with a CHECK constraint to allow only values 
+between 1 and 6
+
+
+Exercise 4: Create a table with a DEFAULT constraint
+Create a table named `professors` with the following columns:
+- `professor_id` (INT) as the Primary Key
+- `first_name` (VARCHAR(50))
+- `last_name` (VARCHAR(50))
+- `department` (VARCHAR(50)) with a DEFAULT value of 'General'
+
+
+Exercise 5: Create a table with multiple constraints
+Create a table named `departments` with the following columns:
+- `department_id` (INT) as the Primary Key
+- `department_name` (VARCHAR(100)) UNIQUE
+- `budget` (DECIMAL(10, 2)) with a CHECK constraint to allow only values greater than 0
+
+
+Exercise 6: Create a table with a composite Primary Key
+Create a table named `course_assignments` with the following columns:
+- `professor_id` (INT) as part of the composite Primary Key
+- `course_id` (INT) as part of the composite Primary Key
+- `assignment_date` (DATE)
+
+
+Exercise 7: Create a table with a Foreign Key referencing a composite Primary Key
+Create a table named `class_schedules` with the following columns:
+- `schedule_id` (INT) as the Primary Key
+- `professor_id` (INT)
+- `course_id` (INT)
+- `schedule_date` (DATE)
+- Add a Foreign Key constraint referencing `course_assignments(professor_id, course_id)`
+
+
+Exercise 8: Create a table with NOT NULL constraints
+Create a table named `classrooms` with the following columns:
+- `classroom_id` (INT) as the Primary Key
+- `building` (VARCHAR(50)) NOT NULL
+- `room_number` (VARCHAR(10)) NOT NULL
+- `capacity` (INT)
