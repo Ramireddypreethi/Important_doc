@@ -1,0 +1,105 @@
+Cloud Computing 
+
+Cloud refers to a Network -> Internet
+Cloud can provide Services over public and private networks
+
+N/W -> LAN / WAN / MAN / VPN
+
+LAN -> Local Area Network
+
+WAN -> wide Area Network 
+
+MAN -> Metropolitan Area Network
+
+VPN -> Virtual Private Networks
+
+Applications such as 
+ email 
+ web conferencing
+ CRM
+
+Cloud Computing :
+ refers to manipulating
+           configuring
+           accessing 
+Hardware 
+Software
+from remote places
+
+Cloud Offers -> Data Storage
+                Infrastructure
+                Application
+
+Deployment Models
+  Public
+  Private
+  Hybrid
+  Community
+
+Service Models
+  IAAS - Infrastructure As A Service
+  PAAS - Platform as a Service
+  SAAS - Software as a Service
+
+XaaS - yet another service model
+          Network as a Service
+          Business as a Service
+          Database as a Service  
+          Strategy as a Service
+
+
+Virtualization :
+   Creating a VM over existing OS and Hardware is referred to as HW Virtualization
+   VM's provide an environment that is logically separated from underlying Hardware
+
+The machine on which the VM is created is known as Host Machine 
+and VM is referred as Guest Machine
+This VM is managed by software or firmware which is known as Hypervisor
+
+Virtualization in Cloud
+ 
+Containerization :
+  Type of Virtualization in which all the components of an Appl. are bundled into a single image
+  and can be run in isolated user space on same shared OS 
+  Containers are Light Weight 
+                 portable
+                 highly conducive to automation
+  ex : Docker Container
+
+- Containerization is the Packaging together of Software code  with all its necessary
+  components like
+       libraries
+       frameworks
+       other dependancies
+
+Container is basically a fully functional and portable computing environment
+Package an Application in a container that can be moved across platforms and infra.
+
+
+Benefits :
+ - Lightweight
+ - Portable
+ - share the host machine
+
+
+Docker Containers
+  - is a runtime Instance of Docker Image
+  - Can be created by instantiating the image
+  - Docker Containers bundle an application along with all of its dependancies into a compact , light package
+
+Docker Containers :
+- Open Source 
+- images are free 
+Features
+ - Containerization
+ - image Management
+ - Networking
+ - Volumes 
+ - Security
+ - Scalability
+ - Orchestration
+ - Microservices Architecture
+ - CI/CD      
+
+
+  
